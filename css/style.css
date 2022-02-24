@@ -1,0 +1,191 @@
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  background-image: linear-gradient(
+      rgba(247, 247, 247, 0.945),
+      rgba(189, 223, 245, 0.5)
+    ),
+    url("../images/ladder-g518e7125e_1920.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0px;
+  background: rgba(243, 243, 243, 0.5);
+}
+.logo img {
+  width: 12vw;
+  margin-left: 2rem;
+}
+nav {
+  width: 30%;
+}
+h1,
+h2,
+h3 {
+  font-family: "Francois One", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+
+a i {
+  font-size: 1.5rem;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-menu li {
+  list-style: none;
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+}
+.top {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(49, 49, 49, 0.5)
+    ),
+    url("../images/LucilleCaballero-Photographie-Architecture-0011.jpg");
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  height: 60vw;
+}
+.top-title h1 {
+  margin-bottom: 0;
+}
+
+.profession {
+  padding: 1rem 0;
+}
+.button {
+  border: solid transparent 1px;
+  background-color: rgba(189, 223, 245, 0.5);
+  border-radius: 6px;
+  padding: 1rem;
+  transition: background-color 0.7s border 0.7s transform 1.5s;
+}
+.button:hover {
+  border: solid rgba(49, 49, 49, 0.5) 1px;
+  background-color: rgba(49, 49, 49, 0.7);
+  transform: scale(1.1);
+}
+
+.button a {
+  font-weight: bold;
+  padding: 1rem;
+  color: whitesmoke;
+}
+.top-button {
+  display: flex;
+  margin: 1.5rem 0;
+  grid-gap: 1rem;
+}
+.section-a {
+  background: rgba(243, 243, 243, 1);
+}
+
+.commit-block,
+.achievements-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.commit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 10px;
+}
+.commit-title,
+.achievement-title,
+.partners-title {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+}
+.commit-title h2 {
+  font-weight: bold;
+}
+
+.commit-text {
+  text-align: center;
+  max-width: 312px;
+  padding: 1rem;
+  /*background-color: rgba(189, 223, 245, 0.5);*/
+  border-radius: 10px;
+  color: rgba(49, 49, 49);
+}
+.commit-text i {
+  color: rgb(241, 160, 85);
+  font-size: 1.5rem;
+}
+.commit-text h3 {
+  color: rgb(189, 223, 245);
+}
+.achievements {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  grid-gap: 2rem;
+  align-content: center;
+  padding: 4rem 0;
+  background-color: transparent;
+}
+.achievement-card {
+  /*background-color: rgba(243, 243, 243, 1);
+  border-radius: 10px;*/
+  display: flex;
+  justify-content: center;
+  grid-gap: 3%;
+  width: 100%;
+}
+.partners-card {
+  display: flex;
+  justify-content: space-around;
+  grid-gap: 3%;
+  width: 50%;
+}
+.achievement-card img {
+  border-radius: 20px;
+}
+.achievement-card img,
+.partners-card img {
+  object-fit: contain;
+  width: 100%;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.partners-cards {
+  display: flex;
+  align-content: center;
+}
+.partners-card img {
+  width: 25%;
+}
+footer {
+  background-image: linear-gradient(
+    rgba(247, 247, 247, 0),
+    rgba(40, 48, 53, 1)
+  );
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+}
